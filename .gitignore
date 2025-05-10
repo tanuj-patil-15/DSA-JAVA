@@ -1,2 +1,9 @@
-.replit
-replit.nix
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Maven
+/target/
