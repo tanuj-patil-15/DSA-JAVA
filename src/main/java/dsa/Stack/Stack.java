@@ -1,3 +1,7 @@
+package dsa.stack;
+
+import java.util.ArrayList;
+
 public class Stack<T> {
 private ArrayList<T> stack;
 

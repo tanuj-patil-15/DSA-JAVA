@@ -1,3 +1,5 @@
+package dsa.disjointset;
+
 public class DSU{
     int [] rank;
     int [] parent;
@@ -58,7 +60,7 @@ public class DSU{
         dsu.union(4,5);
         dsu.union(5,6);
 
-        dsu.union(2,5);
+//        dsu.union(2,5); // yes if uncommented // no if commented
 
         if (dsu.find(4) == dsu.find(0))
             System.out.println("Yes");
